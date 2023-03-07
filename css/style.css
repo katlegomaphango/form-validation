@@ -1,0 +1,42 @@
+body {
+    padding-left: 2rem;
+}
+
+h1 {
+    padding-left: 20px;
+}
+
+.input:not(:first-child), .btn{
+    margin-top: 1rem;
+}
+
+label {
+    /* display: inline-block; */
+    float: left;
+    clear: left;
+    width: 70px;
+    text-align: right;
+}
+
+/* input {
+    display: inline-block;
+    float: left;
+} */
+
+.name input, 
+.address input, 
+.about textarea {
+    width: 400px;
+}
+
+.country select {
+    width: 155px;
+}
+
+.btn {
+    margin-left: 15rem;
+    background-color: aqua;
+    font-size: 1rem;
+    font-weight: 550;
+    padding: 0.2rem;
+}
